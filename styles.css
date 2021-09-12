@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+* {
+	 box-sizing: border-box;
+	 margin: 0;
+	 padding: 0;
+}
+
+html {
+	 scroll-behavior: smooth;
+}
+
+
+body {
+	 font-family: 'Montserrat', sans-serif;
+	 font-size: 1.125rem;
+	 line-height: 180%;
+}
+
+#branding-phones-container {
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+	 padding: 0 3rem;
+	 height: 7.5rem;
+	 background: #fff;
+}
+
+#branding-phones-container img {
+	 width: 3.5rem;
+	 height: 3.5rem;
+}
+	
+#branding-phones-container .branding {
+	 display: flex;
+	 align-items: center;
+}
+
+#branding-phones-container .branding h2 {
+	 margin-left: .5rem;
+	 font-size: 1.5rem;
+	 line-height: 1.5rem;
+	 text-transform: uppercase;
+	 color: #31314A;
+}
+
+#branding-phones-container .phones {
+	 display: flex;
+	 align-items: center;
+	 flex-direction: row;
+}
+
+
+#branding-phones-container ul {
+	 margin-right: 4rem;
+	 list-style: none;
+}
+
+#branding-phones-container ul li {
+	 font-size: .9rem;
+}
+
+#branding-phones-container ul li a {
+	 margin-left: .5rem;
+	 color: #3b5ebe;
+	 text-decoration: none;
+}
+
+#branding-phones-container .contact-button {
+	 display: block;
+	 width: 7.5rem;
+	 height: 3rem;
+	 background: #ED2724;
+	 box-shadow: 0px 4px 4px 0px #b66c6b33;
+	 border-radius: 1.5rem;
+	 border: none;
+	 font-size: .8rem;
+	 color: white;
+	 line-height: 3rem;
+	 font-weight: bold;
+	 text-align: center;
+	 text-decoration:none;
+}
+
+#branding-phones-container .contact-button:hover {
+	 opacity: .8;
+	 transition: .6s;
+}
+
+nav {
+	 padding: 1.75rem 3rem;
+	 background-image: url('images/branding/texture-1.jpg');
+}
+
+nav ul {
+	 display: flex;
+	 flex-direction: row;
+	 list-style: none;
+	 font-weight: 500;
+}
+
+nav ul li {
+	 margin-right: 3rem;
+}
+
+nav ul li:last-child {
+	 margin-right: 0;
+}
+
+nav ul li a {
+	 padding: 1.75rem 0;
+	 color: #acacdf;
+	 text-decoration: none;
+}
+
+nav ul li a:hover {
+	 color: white;
+}
+	
+header {
+	 display: flex;
+	 flex-direction: row;
+	 padding: 3.5rem 3rem 3rem 3rem;
+	 background: #3b5ebe;
+	 background-image: url('images/branding/texture-2.jpg');
+}
+
+header div:first-child {
+	 flex-basis: 50%;
+	 margin-right: 3.5rem;
+}
+
+header h1 {
+	 padding-bottom: 1rem;
+	 font-size: 1.5rem;
+	 line-height: 2rem;
+	 color: #fff;
+}
+
+header p {
+	 color: #CDD8F6;
+	 padding-bottom: 2rem;
+}
+
+header p strong {
+	 font-weight: bold;
+}
+
+header .image-container {
+	 flex-basis: 50%;
+	 position: relative;
+	 display: flex;
+	 align-items: center;
+}
+
+header .image-container span {
+	 cursor: pointer;
+	 opacity: .8;
+}
+		  
+header .levi-klik {
+	 border-radius: 1.25rem;
+	 width: 2.5rem;
+	 height: 2.5rem;
+	 background-image: url('images/branding/levi-klik.svg');
+	 border: none;
+	 border-radius: 1.25rem;
+	 position: absolute;
+	 top: calc(50% - 20px);
+	 left: 2rem;
+	 box-shadow: 0px 0px 12px rgba(43, 63, 111, .6);
+	 outline: none;
+}
+
+header img {
+	 width: 100%;
+	 height: auto;
+	 background: white;
+	 border: .8rem solid white;
+	 box-shadow: 0px 0px 24px rgba(43, 63, 111, .6);
+}
+		  
+header .desni-klik {
+	 width: 2.5rem;
+	 height: 2.5rem;
+	 background-image: url('images/branding/desni-klik.svg');
+	 border: none;
+	 border-radius: 1.25rem;
+	 position: absolute;
+	 top: calc(50% - 20px);
+	 right: 2rem;
+	 box-shadow: 0px 0px 12px rgba(43, 63, 111, .6);
+	 outline: none;
+}
+
+.o-nama-usluge-container {
+	 display: flex;
+	 flex-direction: row;
+}
+
+#o-nama {
+	 flex-basis: 50%;
+	 padding: 3.5rem 3rem 3rem 3rem;
+	 background: #f1ebe3;
+	 background: #ECE3D9;
+	 color: #46466a;
+}
+
+#o-nama h2 {
+	 padding-bottom: 1.5rem;
+	 line-height: 1.5rem;
+	 text-align: left;
+}
+
+#o-nama p {
+	 margin-bottom: 1rem;
+}
+
+#o-nama strong {
+	 font-weight: 500;
+}
+
+#usluge {
+	 flex-basis: 50%;
+	 padding: 3.5rem 3rem 3rem 3rem;
+	 background: #f1ebe3;
+	 list-style-position: inside;
+	 color: #46466a;
+}
+
+#usluge h2 {
+	 padding-bottom: 1.5rem;
+	 line-height: 1.5rem;
+	 text-align: left;
+}
+
+#usluge ul {
+	 margin-bottom: 1rem;
+}
+
+#kontakt {
+	 padding: 3.5rem 3rem 3rem 3rem;
+	 color: #46466a;
+}
+
+#kontakt h2 {
+	 padding-bottom: 1.5rem;
+	 line-height: 1.5rem;
+	 text-align: center;
+}
+
+#kontakt p {
+	 margin-bottom: 1rem;
+}
+
+#kontakt p a {
+	 color: #ed2724;
+	 text-decoration: none;
+}
+
+form div {
+	 display: flex;
+	 flex-direction: column;
+}
+
+form input {
+	 width: 100%;
+	 height: 1rem;
+	 font-size: 1rem;
+	 background: #eef0f6;
+	 border: 1px solid #dadeeb; 
+}
+
+form label {
+	 margin-top: 2rem;
+	 margin-bottom: .4rem;
+}
+
+form input[type="text"] {
+	 padding: 1.5rem;
+	 color: #5F5F71;
+}
+
+form input[type="email"] {
+	 padding: 1.5rem;
+	 color: #5F5F71;
+}
+
+form textarea {
+	 resize: none;
+	 padding: 1.5rem;
+	 margin-bottom: 2rem;
+	 height: 15rem;
+	 background: #eef0f6;
+	 font-size: 1rem;
+	 color: #5F5F71;
+	 border: 1px solid #dadeeb; 
+}
+
+form ::placeholder {
+	 color: #83839c;
+	 font-size: 1rem;
+	 font-family: 'Montserrat', sans-serif;
+	 font-style: italic;
+}
+
+form input[type="submit"] {
+	 height: 3rem;
+	 margin-bottom: 4rem;
+	 border: none;
+	 border-radius: 1.5rem;
+	 background: #ed2724;
+	 color: white;
+	 font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+	 cursor: pointer;
+	 opacity: .8;
+	 transition: .6s; 
+}
+
+@media (max-width: 800px) {
+	
+	 body {
+		  line-height: 160%;
+	 }
+
+	 #branding-phones-container {
+		  padding: 0 1.5rem;
+		  height: 6rem;
+	 }
+	
+	 #branding-phones-container img {
+		  width: 2.5rem;
+		  height: 2.5rem;
+	 }
+		
+	 #branding-phones-container ul {
+		  display: none;
+	 }
+	
+	 #branding-phones-container .branding h2 {
+		  margin-left: .5rem;
+		  font-size: 1rem;
+	 }
+	
+	 header {
+		  flex-direction: column;
+		  padding: 3.5rem 1.5rem 2rem 1.5rem;
+	 }
+	 
+	 header div:first-child {
+		  margin-right: 0;
+	 }
+	 
+	 header span {
+		  width: 1.75rem;
+		  height: 1.75rem;
+		  opacity: .6;
+	 }
+	 
+	 header .levi-klik {
+		  left: 1rem;
+	 }
+	 
+	 header .desni-klik {
+		  right: 1rem;
+	 }
+	
+	 header img {
+		  margin-left: 0;
+		  width: 100%;
+		  border: 8px solid white;
+	 }
+	 
+	 nav {
+		  padding: 1.5rem;
+	 }
+	
+	 nav ul {
+		  flex-direction: column;
+	 }
+	
+	 nav ul li {
+		  border-bottom: 1px solid #3d3d62;
+	 }
+	
+	 nav ul li:last-child {
+		  border-bottom: none;
+	 }
+	
+	 nav ul li a {
+		  padding: .5rem 0;
+		  display: block;
+	 }
+	
+	 #o-nama {
+		  padding: 3.5rem 1.5rem 2rem 1.5rem;
+	 }
+	
+	 #o-nama h2 {
+		  text-align: center;
+	 }
+	
+	 #usluge {
+		  padding: 3.5rem 1.5rem 2rem 1.5rem;
+	 }
+	
+	 #usluge h2 {
+		  text-align: center;
+	 }
+	
+	 .o-nama-usluge-container {
+		  flex-direction: column;
+	 }
+	
+	 #kontakt {
+		  padding: 3.5rem 1.5rem 2rem 1.5rem;
+		  color: #46466a;
+	 }
+	
+	 #kontakt h2 {
+		  padding-bottom: 1.5rem;
+		  line-height: 1.5rem;
+		  text-align: center;
+	 }
+	
+	 #kontakt p {
+		  margin-bottom: 1rem;
+	 }
+	
+	 form div {
+		  display: flex;
+		  flex-direction: column;
+	 }
+	
+	 form input {
+		  width: 100%;
+		  height: 1rem;
+		  background: #eef0f6;
+		  border: 1px solid #dadeeb; 	
+	 }
+	
+	 form label {
+		  margin-top: 2rem;
+		  margin-bottom: .4rem;
+	 }
+	
+	 form input[type="text"] {
+		  padding: 1.5rem;
+		  color: #5F5F71;
+	 }
+	
+	 form input[type="email"] {
+		  padding: 1.5rem;
+		  color: #5F5F71;
+	 }
+	
+	 form textarea {
+		  resize: none;
+		  padding: 1.5rem;
+		  margin-bottom: 2rem;
+		  height: 15rem;
+		  background: #eef0f6;
+		  color: #5F5F71;
+		  border: 1px solid #dadeeb; 
+	 }
+	
+	 form ::placeholder {
+		  color: #83839c;
+		  font-style: italic;
+	 }
+	
+	 form input[type="submit"] {
+		  height: 3rem;
+		  margin-bottom: 4rem;
+		  border: none;
+		  border-radius: 1.5rem;
+		  background: #ed2724;
+		  color: white;
+		  font-weight: bold;
+	 }
+	
+}
+
+@media (min-width: 1600px) {
+	 
+	 body {
+		  font-size: 1.5rem;
+	 }
+	 
+	 #branding-phones-container {
+		  padding: 0 10rem;
+	 }
+	
+	 nav {
+		  padding-left: 10rem;
+		  padding-right: 10rem;
+	 }
+	
+	 header {
+		  padding-left: 10rem;
+		  padding-right: 10rem;
+	 }
+	
+	 #o-nama {
+		  padding-left: 10rem;
+		  padding-right: 5rem;
+	 }
+	
+	 #usluge {
+		  padding-left: 5rem;
+		  padding-right: 10rem;
+	 }
+	
+	 #kontakt {
+		  padding-left: 10rem;
+		  padding-right: 10rem;
+	 }
+}
